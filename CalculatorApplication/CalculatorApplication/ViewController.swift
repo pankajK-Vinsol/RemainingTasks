@@ -10,11 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var Buttons: [UIButton]!
-    @IBOutlet weak var inputLabel: UILabel!
+    @IBOutlet private var buttons: [UIButton]!
+    @IBOutlet weak private var inputLabel: UILabel!
     
-    var firstNumber: Double = 0
-    var operationTitle = String()
+    private var firstNumber: Double = 0
+    private var operationTitle = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,18 +22,18 @@ class ViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        for button in Buttons {
+        for button in buttons {
             button.layer.cornerRadius = button.frame.size.width / 2.0
             button.clipsToBounds = true
         }
     }
     
-    @IBAction func numericTask(_ numericButton: UIButton) {
+    @IBAction private func numericTask(_ numericButton: UIButton) {
         let numberTitle = numericButton.currentTitle!
         inputLabel.text = inputLabel.text! + numberTitle
     }
     
-    @IBAction func operationTask(_ operationButton: UIButton) {
+    @IBAction private func operationTask(_ operationButton: UIButton) {
         operationTitle = operationButton.currentTitle!
         let currentinput = inputLabel.text!
         if currentinput.count > 0 {
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         inputLabel.text = ""
     }
     
-    @IBAction func calculationTask(_ equalsButton: UIButton) {
+    @IBAction private func calculationTask(_ equalsButton: UIButton) {
         let currentinput = inputLabel.text!
         let secondNumber = Double(currentinput)!
         guard let finalValue = calculateOutput(first: firstNumber, second: secondNumber, operation: operationTitle) else {
@@ -52,12 +52,11 @@ class ViewController: UIViewController {
         inputLabel.text = String(output)
     }
     
-    @IBAction func clearingTask(_ clearButton: UIButton) {
+    @IBAction private func clearingTask(_ clearButton: UIButton) {
         inputLabel.text = ""
         firstNumber = 0
     }
-    
-    func calculateOutput (first: Double, second: Double, operation: String) -> Double? {
+    private func calculateOutput (first: Double, second: Double, operation: String) -> Double? {
         switch operation {
         case "+":
             return first + second

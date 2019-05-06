@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="landscape">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,11 +15,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CalculatorApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YK0-bx-CEt">
-                                <rect key="frame" x="62.000000000000007" y="152.66666666666663" width="88.666666666666686" height="88.666666666666657"/>
+                                <rect key="frame" x="18" y="638.66666666666663" width="85.666666666666671" height="85.333333333333371"/>
                                 <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="YK0-bx-CEt" secondAttribute="height" id="9tC-Zb-agw"/>
@@ -33,7 +33,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IgM-WI-25B">
-                                <rect key="frame" x="406" y="187.66666666666663" width="0.0" height="0.0"/>
+                                <rect key="frame" x="213" y="638.66666666666663" width="85.666666666666686" height="85.333333333333371"/>
                                 <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" id="d4p-VF-zWp"/>
@@ -62,7 +62,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="727-WJ-TaV">
-                                <rect key="frame" x="464.66666666666669" y="253.33333333333337" width="88.666666666666686" height="88.666666666666657"/>
+                                <rect key="frame" x="310.66666666666669" y="638.66666666666663" width="85.333333333333314" height="85.333333333333371"/>
                                 <color key="backgroundColor" red="0.75686274509803919" green="0.53333333333333333" blue="0.20784313725490194" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="727-WJ-TaV" secondAttribute="height" id="kSE-QE-Ijj"/>
@@ -76,7 +76,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wA7-cv-DKj">
-                                <rect key="frame" x="162.66666666666666" y="253.33333333333337" width="88.666666666666657" height="88.666666666666657"/>
+                                <rect key="frame" x="18" y="541" width="85.666666666666671" height="85.666666666666629"/>
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="wA7-cv-DKj" secondAttribute="height" id="DRe-96-AYQ"/>
@@ -90,7 +90,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfu-al-LX9">
-                                <rect key="frame" x="263.33333333333331" y="253.33333333333337" width="88.666666666666686" height="88.666666666666657"/>
+                                <rect key="frame" x="115.66666666666669" y="541" width="85.333333333333314" height="85.666666666666629"/>
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jfu-al-LX9" secondAttribute="height" id="ba9-Xg-AiM"/>
@@ -104,7 +104,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FX1-2B-0yj">
-                                <rect key="frame" x="364" y="253.33333333333337" width="88.666666666666686" height="88.666666666666657"/>
+                                <rect key="frame" x="213" y="541" width="85.666666666666686" height="85.666666666666629"/>
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="FX1-2B-0yj" secondAttribute="height" id="1BG-TX-dTf"/>
@@ -118,7 +118,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ge-r5-XIJ">
-                                <rect key="frame" x="565.33333333333337" y="253.33333333333337" width="88.666666666666629" height="88.666666666666657"/>
+                                <rect key="frame" x="310.66666666666669" y="541" width="85.333333333333314" height="85.666666666666629"/>
                                 <color key="backgroundColor" red="0.75686274509999996" green="0.53333333329999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="4ge-r5-XIJ" secondAttribute="height" id="Qbo-tM-NwX"/>
@@ -132,7 +132,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pN-w7-xRW">
-                                <rect key="frame" x="162.66666666666666" y="152.66666666666663" width="88.666666666666657" height="88.666666666666657"/>
+                                <rect key="frame" x="18" y="443.66666666666669" width="85.666666666666671" height="85.333333333333314"/>
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="0pN-w7-xRW" secondAttribute="height" id="MPq-x3-dKY"/>
@@ -146,7 +146,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDD-EQ-wV4">
-                                <rect key="frame" x="263.33333333333331" y="152.66666666666663" width="88.666666666666686" height="88.666666666666657"/>
+                                <rect key="frame" x="115.66666666666669" y="443.66666666666669" width="85.333333333333314" height="85.333333333333314"/>
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="hDD-EQ-wV4" secondAttribute="height" id="sDM-Pe-Xiv"/>
@@ -160,7 +160,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Jf-DC-kfR">
-                                <rect key="frame" x="364" y="152.66666666666663" width="88.666666666666686" height="88.666666666666657"/>
+                                <rect key="frame" x="213" y="443.66666666666669" width="85.666666666666686" height="85.333333333333314"/>
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="7Jf-DC-kfR" secondAttribute="height" id="r72-8x-V05"/>
@@ -174,7 +174,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jch-Nj-yOc">
-                                <rect key="frame" x="565.33333333333337" y="152.66666666666663" width="88.666666666666629" height="88.666666666666657"/>
+                                <rect key="frame" x="310.66666666666669" y="443.66666666666669" width="85.333333333333314" height="85.333333333333314"/>
                                 <color key="backgroundColor" red="0.75686274509999996" green="0.53333333329999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jch-Nj-yOc" secondAttribute="height" id="4GW-1q-8be"/>
@@ -188,7 +188,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oGR-fW-Igb">
-                                <rect key="frame" x="162.66666666666666" y="52" width="88.666666666666657" height="88.666666666666686"/>
+                                <rect key="frame" x="18" y="346" width="85.666666666666671" height="85.666666666666686"/>
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="oGR-fW-Igb" secondAttribute="height" id="ucK-4y-iJW"/>
@@ -202,7 +202,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nmv-PN-A3B">
-                                <rect key="frame" x="263.33333333333331" y="52" width="88.666666666666686" height="88.666666666666686"/>
+                                <rect key="frame" x="115.66666666666669" y="346" width="85.333333333333314" height="85.666666666666686"/>
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Nmv-PN-A3B" secondAttribute="height" id="pm5-sz-y4z"/>
@@ -216,7 +216,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJL-Qj-akk">
-                                <rect key="frame" x="364" y="52" width="88.666666666666686" height="88.666666666666686"/>
+                                <rect key="frame" x="213" y="346" width="85.666666666666686" height="85.666666666666686"/>
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="NJL-Qj-akk" secondAttribute="height" id="WqQ-CG-YIg"/>
@@ -230,7 +230,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Z2-Fj-APf">
-                                <rect key="frame" x="565.33333333333337" y="52" width="88.666666666666629" height="88.666666666666686"/>
+                                <rect key="frame" x="310.66666666666669" y="346" width="85.333333333333314" height="85.666666666666686"/>
                                 <color key="backgroundColor" red="0.75686274509999996" green="0.53333333329999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="3Z2-Fj-APf" secondAttribute="height" id="Pov-qh-xDE"/>
@@ -244,7 +244,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xLj-6o-HPU">
-                                <rect key="frame" x="62.000000000000007" y="52" width="88.666666666666686" height="88.666666666666686"/>
+                                <rect key="frame" x="18" y="248.66666666666666" width="85.666666666666671" height="85.333333333333343"/>
                                 <color key="backgroundColor" red="0.82352941176470584" green="0.82352941176470584" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="xLj-6o-HPU" secondAttribute="height" id="8U2-T2-b7E"/>
@@ -258,7 +258,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9eR-A6-G65">
-                                <rect key="frame" x="464.66666666666669" y="152.66666666666666" width="88.666666666666686" height="88.666666666666657"/>
+                                <rect key="frame" x="115.66666666666669" y="248.66666666666666" width="85.333333333333314" height="85.333333333333343"/>
                                 <color key="backgroundColor" red="0.82352941176470584" green="0.82352941176470584" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="9eR-A6-G65" secondAttribute="height" id="Oqk-0Y-gwx"/>
@@ -275,7 +275,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vx0-2x-iic">
-                                <rect key="frame" x="406" y="187.66666666666666" width="0.0" height="0.0"/>
+                                <rect key="frame" x="213" y="248.66666666666666" width="85.666666666666686" height="85.333333333333343"/>
                                 <color key="backgroundColor" red="0.82352941176470584" green="0.82352941176470584" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Vx0-2x-iic" secondAttribute="height" id="3yb-1H-eby"/>
@@ -304,7 +304,7 @@
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0m-0S-aNh">
-                                <rect key="frame" x="464.66666666666669" y="52" width="88.666666666666686" height="88.666666666666686"/>
+                                <rect key="frame" x="310.66666666666669" y="248.66666666666666" width="85.333333333333314" height="85.333333333333343"/>
                                 <color key="backgroundColor" red="0.75686274509999996" green="0.53333333329999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="B0m-0S-aNh" secondAttribute="height" id="DsL-29-XMw"/>
@@ -318,7 +318,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwy-yK-acs">
-                                <rect key="frame" x="62.000000000000007" y="253.33333333333337" width="88.666666666666686" height="88.666666666666657"/>
+                                <rect key="frame" x="115.66666666666669" y="638.66666666666663" width="85.333333333333314" height="85.333333333333371"/>
                                 <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="pwy-yK-acs" secondAttribute="height" id="A39-fc-hHE"/>
@@ -332,7 +332,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZ3-eH-UHT">
-                                <rect key="frame" x="62" y="52" width="592" height="0.0"/>
+                                <rect key="frame" x="18" y="236.66666666666666" width="378" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -495,11 +495,11 @@
                                 <exclude reference="gZS-Kv-kxz"/>
                                 <exclude reference="kDE-CU-SdB"/>
                                 <exclude reference="sK0-cc-m2C"/>
-                                <exclude reference="wq1-0u-bV9"/>
                                 <exclude reference="6yN-if-Iba"/>
-                                <exclude reference="C5a-KD-cKl"/>
+                                <exclude reference="wq1-0u-bV9"/>
                                 <exclude reference="7MG-d2-VNE"/>
                                 <exclude reference="ZMd-yt-ChG"/>
+                                <exclude reference="C5a-KD-cKl"/>
                                 <exclude reference="DDq-Ru-8zm"/>
                                 <exclude reference="ely-eQ-zWl"/>
                                 <exclude reference="nXa-25-oDh"/>
@@ -533,11 +533,11 @@
                                 <exclude reference="gZS-Kv-kxz"/>
                                 <exclude reference="kDE-CU-SdB"/>
                                 <exclude reference="sK0-cc-m2C"/>
-                                <exclude reference="wq1-0u-bV9"/>
                                 <exclude reference="6yN-if-Iba"/>
-                                <exclude reference="C5a-KD-cKl"/>
+                                <exclude reference="wq1-0u-bV9"/>
                                 <exclude reference="7MG-d2-VNE"/>
                                 <exclude reference="ZMd-yt-ChG"/>
+                                <exclude reference="C5a-KD-cKl"/>
                                 <exclude reference="DDq-Ru-8zm"/>
                                 <exclude reference="ely-eQ-zWl"/>
                                 <exclude reference="nXa-25-oDh"/>
@@ -564,13 +564,13 @@
                                 <exclude reference="WXl-6J-kIz"/>
                                 <exclude reference="rAJ-75-uGt"/>
                                 <exclude reference="wie-yx-Ah7"/>
-                                <exclude reference="7O6-XW-als"/>
-                                <exclude reference="mRP-62-qQb"/>
                                 <exclude reference="YCm-C9-4ec"/>
                                 <exclude reference="nbn-og-vGe"/>
-                                <exclude reference="Ujo-Z8-saK"/>
+                                <exclude reference="7O6-XW-als"/>
+                                <exclude reference="mRP-62-qQb"/>
                                 <exclude reference="4ed-2W-PyA"/>
                                 <exclude reference="pJJ-52-mIa"/>
+                                <exclude reference="Ujo-Z8-saK"/>
                                 <exclude reference="xSd-tc-ZXc"/>
                                 <exclude reference="46x-h5-6rV"/>
                                 <exclude reference="7bJ-hL-DDp"/>
@@ -587,26 +587,26 @@
                     </view>
                     <connections>
                         <outlet property="inputLabel" destination="VZ3-eH-UHT" id="3ic-Jc-Hy3"/>
-                        <outletCollection property="Buttons" destination="YK0-bx-CEt" collectionClass="NSMutableArray" id="eRW-sZ-MwN"/>
-                        <outletCollection property="Buttons" destination="pwy-yK-acs" collectionClass="NSMutableArray" id="jXN-rg-4bA"/>
-                        <outletCollection property="Buttons" destination="IgM-WI-25B" collectionClass="NSMutableArray" id="38s-7S-oGG"/>
-                        <outletCollection property="Buttons" destination="727-WJ-TaV" collectionClass="NSMutableArray" id="miX-Y0-QOJ"/>
-                        <outletCollection property="Buttons" destination="wA7-cv-DKj" collectionClass="NSMutableArray" id="wcu-6P-YlC"/>
-                        <outletCollection property="Buttons" destination="jfu-al-LX9" collectionClass="NSMutableArray" id="Khz-ML-4gW"/>
-                        <outletCollection property="Buttons" destination="FX1-2B-0yj" collectionClass="NSMutableArray" id="Qdr-B7-yEl"/>
-                        <outletCollection property="Buttons" destination="4ge-r5-XIJ" collectionClass="NSMutableArray" id="M40-NG-kId"/>
-                        <outletCollection property="Buttons" destination="0pN-w7-xRW" collectionClass="NSMutableArray" id="YOd-0L-0QR"/>
-                        <outletCollection property="Buttons" destination="hDD-EQ-wV4" collectionClass="NSMutableArray" id="gSs-kc-nL9"/>
-                        <outletCollection property="Buttons" destination="7Jf-DC-kfR" collectionClass="NSMutableArray" id="qop-n4-7cY"/>
-                        <outletCollection property="Buttons" destination="jch-Nj-yOc" collectionClass="NSMutableArray" id="DYX-4S-wJf"/>
-                        <outletCollection property="Buttons" destination="oGR-fW-Igb" collectionClass="NSMutableArray" id="b32-Zp-JR3"/>
-                        <outletCollection property="Buttons" destination="Nmv-PN-A3B" collectionClass="NSMutableArray" id="5pN-Uf-GQ9"/>
-                        <outletCollection property="Buttons" destination="NJL-Qj-akk" collectionClass="NSMutableArray" id="Ir5-ti-eUY"/>
-                        <outletCollection property="Buttons" destination="3Z2-Fj-APf" collectionClass="NSMutableArray" id="0Qc-jg-02d"/>
-                        <outletCollection property="Buttons" destination="xLj-6o-HPU" collectionClass="NSMutableArray" id="Ux5-yD-Sjh"/>
-                        <outletCollection property="Buttons" destination="9eR-A6-G65" collectionClass="NSMutableArray" id="4wB-bC-R5e"/>
-                        <outletCollection property="Buttons" destination="B0m-0S-aNh" collectionClass="NSMutableArray" id="VBw-Ye-S7M"/>
-                        <outletCollection property="Buttons" destination="Vx0-2x-iic" collectionClass="NSMutableArray" id="Vq6-5b-vIb"/>
+                        <outletCollection property="buttons" destination="xLj-6o-HPU" collectionClass="NSMutableArray" id="tYh-a6-Zfo"/>
+                        <outletCollection property="buttons" destination="9eR-A6-G65" collectionClass="NSMutableArray" id="2Yu-ML-kUY"/>
+                        <outletCollection property="buttons" destination="Vx0-2x-iic" collectionClass="NSMutableArray" id="f7m-2p-Efc"/>
+                        <outletCollection property="buttons" destination="B0m-0S-aNh" collectionClass="NSMutableArray" id="4Gu-Jx-HVW"/>
+                        <outletCollection property="buttons" destination="oGR-fW-Igb" collectionClass="NSMutableArray" id="fQj-lV-RbX"/>
+                        <outletCollection property="buttons" destination="Nmv-PN-A3B" collectionClass="NSMutableArray" id="gBI-vF-0HM"/>
+                        <outletCollection property="buttons" destination="NJL-Qj-akk" collectionClass="NSMutableArray" id="cVf-4h-o0J"/>
+                        <outletCollection property="buttons" destination="3Z2-Fj-APf" collectionClass="NSMutableArray" id="08p-Eu-KV5"/>
+                        <outletCollection property="buttons" destination="0pN-w7-xRW" collectionClass="NSMutableArray" id="gxY-cg-cfp"/>
+                        <outletCollection property="buttons" destination="hDD-EQ-wV4" collectionClass="NSMutableArray" id="31C-hy-hS0"/>
+                        <outletCollection property="buttons" destination="7Jf-DC-kfR" collectionClass="NSMutableArray" id="rzN-0g-VlP"/>
+                        <outletCollection property="buttons" destination="jch-Nj-yOc" collectionClass="NSMutableArray" id="4ni-oT-ukm"/>
+                        <outletCollection property="buttons" destination="wA7-cv-DKj" collectionClass="NSMutableArray" id="t0T-9Y-Dz2"/>
+                        <outletCollection property="buttons" destination="jfu-al-LX9" collectionClass="NSMutableArray" id="sQz-a0-NXe"/>
+                        <outletCollection property="buttons" destination="FX1-2B-0yj" collectionClass="NSMutableArray" id="r7K-Mj-ie6"/>
+                        <outletCollection property="buttons" destination="4ge-r5-XIJ" collectionClass="NSMutableArray" id="LpN-x0-U25"/>
+                        <outletCollection property="buttons" destination="YK0-bx-CEt" collectionClass="NSMutableArray" id="xdh-ay-1ae"/>
+                        <outletCollection property="buttons" destination="pwy-yK-acs" collectionClass="NSMutableArray" id="bPM-6O-QYX"/>
+                        <outletCollection property="buttons" destination="IgM-WI-25B" collectionClass="NSMutableArray" id="s6p-pG-fIb"/>
+                        <outletCollection property="buttons" destination="727-WJ-TaV" collectionClass="NSMutableArray" id="OqQ-Er-vAK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
