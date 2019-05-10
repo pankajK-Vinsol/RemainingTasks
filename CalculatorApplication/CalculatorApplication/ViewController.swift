@@ -13,11 +13,12 @@ class ViewController: UIViewController {
     @IBOutlet private var buttons: [UIButton]!
     @IBOutlet weak private var inputLabel: UILabel!
     
-    private var firstNumber: Double = 0
+    private var firstNumber = Double()
     private var operationTitle = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        firstNumber = 0.0
     }
     
     override func viewDidLayoutSubviews() {
