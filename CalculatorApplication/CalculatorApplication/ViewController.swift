@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet private var buttons: [UIButton]!
     @IBOutlet weak private var inputLabel: UILabel!
+    @IBOutlet private var stackView: [UIStackView]!
     
     private var firstNumber = Double()
     private var operationTitle = String()
@@ -26,6 +27,9 @@ class ViewController: UIViewController {
         for button in buttons {
             button.layer.cornerRadius = button.frame.size.width / 2.0
             button.clipsToBounds = true
+            for stacks in stackView {
+                stacks.layoutSubviews()
+            }
         }
     }
     
@@ -45,7 +49,7 @@ class ViewController: UIViewController {
     
     @IBAction private func calculationTask(_ equalsButton: UIButton) {
         let currentinput = inputLabel.text!
-        let secondNumber = Double(currentinput)!
+        guard let secondNumber = Double(currentinput) else { return }
         guard let finalValue = calculateOutput(first: firstNumber, second: secondNumber, operation: operationTitle) else {
             return
         }
@@ -57,7 +61,7 @@ class ViewController: UIViewController {
         inputLabel.text = ""
         firstNumber = 0
     }
-    private func calculateOutput (first: Double, second: Double, operation: String) -> Double? {
+    private func calculateOutput(first: Double, second: Double, operation: String) -> Double? {
         switch operation {
         case "+":
             return first + second
