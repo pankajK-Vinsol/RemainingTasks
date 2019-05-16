@@ -27,6 +27,11 @@ class ViewController: UIViewController {
         for button in buttons {
             button.layer.cornerRadius = button.frame.size.width / 2.0
             button.clipsToBounds = true
+            if button.titleLabel?.text == "." {
+                button.titleEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 15, right: 0)
+            } else if button.titleLabel?.text == "*" {
+                button.titleEdgeInsets = UIEdgeInsets(top: 15, left: 0, bottom: 0, right: 0)
+            }
             for stacks in stackView {
                 stacks.layoutSubviews()
             }
@@ -41,7 +46,7 @@ class ViewController: UIViewController {
     @IBAction private func operationTask(_ operationButton: UIButton) {
         operationTitle = operationButton.currentTitle!
         let currentinput = inputLabel.text!
-        if currentinput.count > 0 {
+        if currentinput.count > 0 && currentinput != "." {
             firstNumber = Double(currentinput)!
         }
         inputLabel.text = ""
@@ -61,6 +66,7 @@ class ViewController: UIViewController {
         inputLabel.text = ""
         firstNumber = 0
     }
+    
     private func calculateOutput(first: Double, second: Double, operation: String) -> Double? {
         switch operation {
         case "+":
