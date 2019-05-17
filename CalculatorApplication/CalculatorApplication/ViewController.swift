@@ -40,21 +40,37 @@ class ViewController: UIViewController {
     
     @IBAction private func numericTask(_ numericButton: UIButton) {
         let numberTitle = numericButton.currentTitle!
-        inputLabel.text = inputLabel.text! + numberTitle
+        if numberTitle == "." {
+            if !(inputLabel.text?.contains("."))! {
+                inputLabel.text = inputLabel.text! + numberTitle
+            }
+        } else {
+            inputLabel.text = inputLabel.text! + numberTitle
+        }
     }
     
     @IBAction private func operationTask(_ operationButton: UIButton) {
-        operationTitle = operationButton.currentTitle!
         let currentinput = inputLabel.text!
+        if operationTitle.count == 0 {
+            operationTitle = operationButton.currentTitle!
+        } else {
+            performOutput(secondInput: currentinput)
+            operationTitle = operationButton.currentTitle!
+        }
         if currentinput.count > 0 && currentinput != "." {
-            firstNumber = Double(currentinput)!
+            firstNumber = Double(inputLabel.text!)!
         }
         inputLabel.text = ""
     }
     
     @IBAction private func calculationTask(_ equalsButton: UIButton) {
         let currentinput = inputLabel.text!
-        guard let secondNumber = Double(currentinput) else { return }
+        performOutput(secondInput: currentinput)
+        operationTitle = ""
+    }
+    
+    private func performOutput(secondInput: String) {
+        guard let secondNumber = Double(secondInput) else { return }
         guard let finalValue = calculateOutput(first: firstNumber, second: secondNumber, operation: operationTitle) else {
             return
         }
@@ -65,6 +81,7 @@ class ViewController: UIViewController {
     @IBAction private func clearingTask(_ clearButton: UIButton) {
         inputLabel.text = ""
         firstNumber = 0
+        operationTitle = ""
     }
     
     private func calculateOutput(first: Double, second: Double, operation: String) -> Double? {
